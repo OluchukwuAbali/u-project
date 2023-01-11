@@ -206,7 +206,7 @@ body{
     background-color: white;
     padding-left: 30px;
     padding-right: 45px;
-    box-shadow: 3px 3px 15px #b6b6b68c;
+    box-shadow: 3px 3px 15px #b6b6b68c; 
 }
 .section2{
     position: absolute;
@@ -290,7 +290,7 @@ body{
         width: auto;
         font-family:Arial, Helvetica, sans-serif;
         padding-bottom: 0px;
-    }
+    } 
     .starandcost {
         font-size: 13px;
         padding-bottom: 2px;
@@ -351,7 +351,7 @@ body{
         .presection3{
             padding-left: 30px;
         }
-        .slideone{
+        .slideone{ 
             position: relative;
         }
         .dropdown1{
@@ -398,12 +398,670 @@ body{
             padding: 10px;
             margin-left: 25px;
             cursor: pointer;
-        }
+        }    
         .slideone:hover .dropdown1{
-            display: block; 
+                display: block;
         }
         .textandtick img{
             width: 10px;
             object-fit: contain;
         }
-        
+        .dropdown2{
+            display: none;
+            position: absolute;
+            left: 520px;
+            top: 95px;
+            width: 300px;
+            padding: 20px;
+            background-color: white;
+            border: solid 0.5px rgb(209, 202, 202);
+        }
+        .dropdown2 span{
+            color: rgb(75, 163, 75);
+        }
+        .dropdown2 h1{
+            font-size: 20px;
+        }
+        .dropdown2 button{
+            background-color: rgb(148, 53, 148);
+            padding: 5px 10px;
+            display: block;
+            height: 40px;
+            width: 210px;
+            border: none;
+            font-size: 16px;
+            color: white;
+            cursor: pointer;
+        }
+        .dropdown2 button:hover{
+            opacity: 0.8;
+        }
+        .slidetwo:hover .dropdown2{
+            display: block;   
+        }
+        .dropdown3{
+            display: none;
+            position: absolute;
+            left: 770px;
+            top: 95px;
+            width: 300px;
+            padding: 20px;
+            background-color: white;
+            border: solid 0.5px rgb(209, 202, 202);
+        }
+        .dropdown3 span{
+            color: rgb(75, 163, 75);
+        }
+        .dropdown3 h1{
+            font-size: 20px;
+        }
+        .dropdown3 button{
+            background-color: rgb(148, 53, 148);
+            padding: 5px 10px;
+            display: block;
+            height: 40px;
+            width: 210px;
+            border: none;
+            font-size: 16px;
+            color: white;
+            cursor: pointer;
+        }
+        .dropdown3 button:hover{
+            opacity: 0.8;
+        }
+        .slidethree:hover .dropdown3{
+            display: block;   
+        }
+        /* DROP DOWN FOUR BELOW */
+
+.dropdown4{
+    display: none;
+    position: absolute;
+    left: 420px;
+    top: 95px;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border: solid 0.5px rgb(209, 202, 202);
+}
+
+.dropdown4 span{
+    color: rgb(75, 163, 75);
+}
+.dropdown4 h1{
+    font-size: 20px;
+}
+.dropdown4 button{
+    background-color: rgb(148, 53, 148);
+    padding: 5px 10px;
+    display: block;
+    height: 40px;
+    width: 210px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown4 button:hover{
+    opacity: 0.8;
+}
+
+.slidefour:hover .dropdown4{
+    display: block;   
+}
+
+/* DROP DOWN FIVE BELOW */
+
+.dropdown5{
+    display: none;
+    position: absolute;
+    left: 680px;
+    top: 95px;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border: solid 0.5px rgb(209, 202, 202);
+}
+
+.dropdown5 span{
+    color: rgb(75, 163, 75);
+}
+
+.dropdown5 h1{
+    font-size: 20px;
+}
+
+.dropdown5 button{
+    background-color: rgb(148, 53, 148);
+    padding: 5px 10px;
+    display: block;
+    height: 40px;
+    width: 210px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown5 button:hover{
+    opacity: 0.8;
+}
+
+.slidefive:hover .dropdown5{
+    display: block;
+}
+/* START OF STUDENTS VIEWING SECTION */
+
+.studentssection1 img, .studentssection2 img, 
+.studentssection3 img, .studentssection4 img,
+.studentssection5  img{
+    width: 230px;
+    border: solid 0.1px rgb(2, 2, 2);
+}
+
+.studentssection1 img:hover, .studentssection2 img:hover, 
+.studentssection3 img:hover, .studentssection4 img:hover,
+.studentssection5  img:hover {
+    opacity: 0.7;
+    transition: 0.3s ease;
+
+}
+
+span{
+    color: rgb(158, 94, 10);
+}
+.studentssection1, .studentssection2, 
+.studentssection3, .studentssection4,
+.studentssection5 {
+    display: block;
+    height: fit-content;
+    padding-right: 17px;
+    position: relative;
+    padding-top: 40px;
+}
+
+.studentssection1:hover, .studentssection2:hover, 
+.studentssection3:hover, .studentssection4:hover,
+.studentssection5:hover{
+    cursor: pointer;
+
+}
+
+
+
+.studentssection1 h1, .studentssection2 h1, 
+.studentssection3 h1, .studentssection4 h1,
+.studentssection5 h1{
+    font-size: 15px;
+    width: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    display: block;
+    width: 230px;
+
+}
+
+.ssdropdown1 span, .ssdropdown2 span, 
+.ssdropdown3 span, .ssdropdown4 span, 
+.ssdropdown5 span{
+    color: rgb(75, 163, 75);
+
+}
+
+.ssdropdown1 button, .ssdropdown2 button, 
+.ssdropdown3 button, .ssdropdown4 button, 
+.ssdropdown5 button {
+    background-color: rgb(148, 53, 148);
+    padding: 5px 10px;
+    display: block;
+    height: 40px;
+    width: 210px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.ssdropdown1  button:hover, .ssdropdown2  button:hover, 
+.ssdropdown3  button:hover, .ssdropdown4  button:hover, 
+.ssdropdown5  button:hover{
+    opacity: 0.8;
+}
+
+.buttonandheart{
+    display: flex;
+}
+.buttonandheart img{
+    width: 20px;
+    border: solid 0.5px black;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.ssdropdown1  .textandtick img, .ssdropdown2  .textandtick img, 
+.ssdropdown3  .textandtick img, .ssdropdown4  .textandtick img, 
+.ssdropdown5  .textandtick img{
+    width: 15px;
+    object-fit: contain;
+    border: none;
+}
+
+
+.ssdropdown1{
+    display: none;
+    width: 300px;
+    padding: 20px;
+    top: -70px;
+    position: absolute;
+    left: 240px;
+    background-color: white;
+    border: solid 0.5px rgb(209, 202, 202);
+    z-index: 100;
+}
+
+.ssdropdown2{
+    display: none;
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    left: 240px;
+    top: -70px;
+    /* bottom: 180px; */
+    background-color: white;
+    border: solid 0.5px rgb(209, 202, 202);
+    z-index: 100;
+}
+
+.ssdropdown3{
+    display: none;
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    left: 240px;
+    top: -70px;
+    /* bottom: 180px; */
+    background-color: white;
+    border: solid 0.5px rgb(209, 202, 202);
+    z-index: 100;
+}
+
+.ssdropdown4{
+    display: none;
+    width: 300px;
+    padding: 20px;
+    top: -70px;
+    /* bottom: 180px; */
+    position: absolute;
+    left: -360px;
+    background-color: white;
+    border: solid 0.5px rgb(209, 202, 202);
+    z-index: 100;
+}
+
+.ssdropdown5{
+    display: none;
+    width: 300px;
+    padding: 20px;
+    top: -70px;
+    position: absolute;
+    left: -360px;
+    /* bottom: 180px; */
+    background-color: white;
+    border: solid 0.5px rgb(209, 202, 202);
+    z-index: 100;   
+}
+
+.studentssection1:hover .ssdropdown1{
+    display: block;
+    
+}
+
+.studentssection2:hover .ssdropdown2{
+    display: block;
+    
+}
+.studentssection3:hover .ssdropdown3{
+    display: block;
+    
+}
+.studentssection4:hover .ssdropdown4{
+    display: block;
+    
+}
+.studentssection5:hover .ssdropdown5{
+    display: block;
+}
+
+
+
+
+.studentsinteretslides{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    padding-left: 5px;
+    padding-top: 90px;
+    position: relative;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    height: 450px;
+}
+.extrastudentsslides{
+    display: flex;
+    position: relative;
+}
+
+.studentsinteretslides::-webkit-scrollbar{
+    display: none;
+}
+
+.scroll3{
+    position: absolute;
+    width: 25px;
+    right: 0px;
+    top: 139px;
+    background-color: whitesmoke;
+    border: solid 1px grey;
+    padding: 10px;
+    border-radius: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+
+.scroll5{
+    position: absolute;
+    transform: rotate(180deg);
+    width: 25px;
+    top: 50px;
+    left: -10px;
+    background-color: whitesmoke;
+    border: solid 1px grey;
+    padding: 10px;
+    border-radius: 50px;
+    z-index: 90;
+    cursor: pointer;
+}
+
+.studentscafe{
+    padding-top: 5px;
+    position: relative;
+}
+
+.studentscafe h2{
+    position: absolute;
+    left: 40px;
+    top: 50px;
+}
+
+.bestseller button{
+ padding: 4px;
+ background-color: #eceb98;
+ color: #3d3c0a;
+ border: none;
+ font-weight: bolder;
+ font-size: 11px;
+}
+
+/* END OF STUDENTS VIEWING SECTION */
+
+/* START OF TOP CATEFORIES SECTION */
+
+
+.categories{
+    padding: 20px 20px;
+    padding-bottom: 30px;
+    font-size: small;
+}
+.topcategorisection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomcategorisection{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.caty1 img:hover{
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+/* END OF TOP CATEFORIES SECTION */
+
+/* START OF Featured topics by category */
+.featured button{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent;
+    color: black;
+    border: solid 1px rgb(90, 88, 88);
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.featured{
+    background-color: rgb(247,249,250);
+    padding: 25px;
+    margin-bottom: 50px;
+    
+}
+
+.featured h1{
+    padding-left: 40px;
+    font-size: 25px;
+}
+
+.featured a li{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.featuredinside{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    padding-right: 20px;
+    
+}
+
+/* END OF Featured topics by category */
+.companies{
+    text-align: center; 
+    padding-top: 8px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: auto;
+    background-color: white
+}
+.companies h1{
+    line-height: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.companieslogos{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 1.6rem;
+    grid-auto-flow: initial; 
+    align-self: stretch;
+}
+.trainer1{ 
+    width: 800px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+} 
+.trainer1 img{ 
+    width: 400px; 
+    padding-right: 50px;
+    margin-right: 50px; 
+} 
+.trainer1inner img{
+    width: 180px;
+}
+ 
+.trainer1inner ul{
+    font-weight: 400;
+    font-size: 18px;
+    display: block;
+    padding-right: 50px;
+    width: 400px;
+}
+.trainer1inner button{
+    width: 180px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.trainer1inner .but{
+    width: 135px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.trainer2{
+    width: 900px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+.trainer2inner{
+    padding-left: 90px;
+    
+}
+
+.trainer2inner h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.trainer2inner p{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.trainer2inner button{
+    width: 180px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* START OF FOTTER */
+
+.Fotter{
+    background-color: rgb(28,29,31);
+    padding: 25px;
+    position: relative;
+    
+}
+.fotterbutton button{
+    padding: 10px;
+    font-size: 18px;
+    width: 80px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+
+.fotterbutton{
+    
+    border: solid 1px white;
+    cursor: pointer;
+    margin-left: 40px;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    cursor: pointer;
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+
+
+.Fotter a {
+    text-decoration: none;
+    
+}
+
+
+.Fotter a li{
+    list-style: none;
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+    color: rgb(247,249,250);
+    text-decoration: none;
+    
+}
+
+.Fotter a li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Fotterinside{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    padding-right: 20px;
+    align-items: center;
+    
+}
+
+.fotterbutton img{
+    width: 18px;
+    height: 18px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 12px;
+    
+}
+
+.Fotter h4{
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+}
+
+.fotterlogo img{
+    width: 100px;
+    padding-left: 45px;
+}
+
+
+.Fotterinside{
+    padding-bottom: 40px;
+}
+/* END OF FOTTER */
+.testimonies{
+    padding: 0px 20px;
+    padding-bottom: 30px;
+    position: absolute;
+    
+}
+.testicard{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box 1px solid black;
+    background: white;
+    height: 100%;
+
+}
